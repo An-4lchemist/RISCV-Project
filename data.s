@@ -1,0 +1,26 @@
+# test
+
+jalr x0,5(t3)
+lb x0,5(t3)
+lh x0,6(t3)
+lw x0,2(t3)
+lbu x0,6(t3)
+lhu x0,2(ra)
+addi x0,s3,7
+slti x0,s3,7
+sltiu x0,s3,7
+xori x0,s3,7
+ori x0,s3,7
+andi x0,s3,7
+slli x0,s3,3
+srli x0,s3,5
+srai x0,s3,31
+Add x0,s3,t0
+sub x0,s3,t0
+sll x0,s3,t0
+slt x0,s3,t0
+sltu x0,s3,t0
+xor x0,s3,t0
+srl x0,s3,t0
+sra x0,s3,t0
+or x0,s3,t0
